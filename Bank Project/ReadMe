@@ -1,1 +1,13 @@
 All the code pieces and raw materials go here
+
+Overview-
+So our project would be based on class and objects. We would follow a very similar strategy to what we used in the python class( For ClassRoom and students). It will be a 3 layer class and object relation.
+
+There will be a main parent class Bank which will contain details of all the branches(as attributes). It will have methods like find total balance, Profit over a date range, make a new branch etc.
+
+Then there will be a child class Branch. Each branch will be an object. It will contain the details of accounts in that branch. Each account will be a dictionary(key - account id, value - object representing the account) identified by the account id. It will have methods like , balance of the branch, etc
+
+Then there will be a  base class Account. Which will contain basic details like person name, etc and methods like number of accounts by a person, etc.
+
+
+This is just a basic outline. Please suggest what features and all can we implement in this.
